@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #E8E9EB;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #2F2D2E;
+}
+
+header {
+    display: flex;
+    padding: 32px;
+    height: 100px;
+    align-items: center;    
+}
+
+header .left_side {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+header .left_side p {
+    font-size: 24px;
+}
